@@ -1,5 +1,6 @@
 # Name of the project
-PROJ_NAME = Automatic-Room-Lighting-System
+PROJ_NAME = Rain Sensing Automatic Car Wiper using Microcontroller
+
 TEST_PROJ_NAME = Test_$(PROJ_NAME)
 
 BUILD_DIR = Build
@@ -8,7 +9,7 @@ BUILD_DIR = Build
 SRC =test/test.c
 
 # All test source files
-TEST_SRC = test/test_ARLS.c\
+TEST_SRC = test/test_SACW.c\
 unity/unity.c
 
 # All include folders with header files
